@@ -16,6 +16,9 @@ Nomster::Application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+  # Send mail in case of forgotten password
+  config.action_mailer.default_url_options = {host: 'localhost:3030'}
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 

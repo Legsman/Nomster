@@ -55,3 +55,6 @@ gem "bootstrap-kaminari-views"
 
 #Add simple_form
 gem 'simple_form'
+
+#Add Authentification
+gem 'devise', '>= 3.2.4'
