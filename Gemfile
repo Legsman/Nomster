@@ -58,3 +58,10 @@ gem 'simple_form'
 
 #Add Authentification
 gem 'devise', '>= 3.2.4'
+
+#Add Geolocalisation
+gem "geocoder", "1.3.4"
+
+#Add Figaro 
+gem "figaro"
+
