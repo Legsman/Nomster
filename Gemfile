@@ -65,3 +65,5 @@ gem "geocoder", "1.3.4"
 #Add Figaro 
 gem "figaro"
 
+#Add CarrierWave (photos)
+gem 'carrierwave'
