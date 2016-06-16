@@ -67,3 +67,6 @@ gem "figaro"
 
 #Add CarrierWave (photos)
 gem 'carrierwave'
+
+#Add Fog 
+gem 'fog'
