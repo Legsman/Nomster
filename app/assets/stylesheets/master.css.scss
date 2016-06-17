@@ -25,6 +25,7 @@ body {
   background:url('/assets/assault.png');
   border-radius: 0;
   box-shadow: 0 10px 6px -6px #777;
+   margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-brand {
@@ -84,4 +85,29 @@ img {
 
 .meow {
   margin: 10px
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-height: 550px;
+    width: 100%;
+}
+
+.carousel-caption {
+    font-family: 'corbertregular', sans-serif;
+    font-size: 50px;
+    font-weight:100;
+    text-shadow: rgba(0,0,0,0.95) 2px 2px;
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    position:absolute;
+    left:0;
+}
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+a {
+      color: #333333;
+
 }
