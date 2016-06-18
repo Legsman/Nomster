@@ -1,0 +1,3 @@
+class ImageBlur
+
+end
