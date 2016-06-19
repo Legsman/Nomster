@@ -6,6 +6,12 @@ class PhotosController < ApplicationController
     redirect_to place_path(@place)
   end
 
+  def create_user_photo
+    @user = User.find(params[:user_id])
+    @user.photos.create(photo_params)
+    redirect_to user_path(@user)
+  end
+
   private
 
   def photo_params
